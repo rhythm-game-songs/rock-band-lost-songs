@@ -39,8 +39,8 @@ def build_packed_con_from_folder(folder_name):
             
             if song_folder.name == folder_name:
                 # create temp folder for the songs data to go
-                cwd.joinpath("tmp/songs").mkdir(parents=True, exist_ok=True)
-                temp_song_path = cwd.joinpath("tmp/songs")
+                cwd.joinpath("_tmp/songs").mkdir(parents=True, exist_ok=True)
+                temp_song_path = cwd.joinpath("_tmp/songs")
                 mega_song_dta = []
                 # for each single CON in the beta_songs* folder
                 for song_con in song_folder.glob("*"):
@@ -58,8 +58,8 @@ def build_packed_con_from_folder(folder_name):
                 with open(temp_song_path.joinpath("songs.dta"), "w", encoding="ISO-8859-1") as oof:
                     oof.writelines(mega_song_dta)
 
-                onyx_pack_files_into_con(cwd.joinpath("tmp"), f"{song_folder.name}")
-                remove_tree(str(cwd.joinpath("tmp")))
+                onyx_pack_files_into_con(cwd.joinpath("_tmp"), f"{song_folder.name}")
+                remove_tree(str(cwd.joinpath("_tmp")))
 
 def main():
 
