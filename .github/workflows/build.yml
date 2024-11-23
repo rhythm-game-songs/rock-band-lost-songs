@@ -3,14 +3,21 @@ name: CI
 on: [push]
 
 jobs:
-  build_xbox_pro_strings_con:
+  build_xbox_packs:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python 3.9
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+
+      - name: Set up env
+        run: |
+          sudo apt-get install rename -y
+
       - name: Set up Onyx
         run: |
           sudo apt install libfuse2
@@ -18,18 +25,20 @@ jobs:
           sudo wget -P dependencies https://github.com/mtolly/onyx/releases/download/20240928/onyx-20240928-linux-x64.AppImage
           sudo chmod a+x dependencies/onyx-20240928-linux-x64.AppImage
           ./dependencies/onyx-20240928-linux-x64.AppImage --appimage-extract
-          ls dependencies
-          ./dependencies/onyx-20240928-linux-x64.AppImage stfs --help
-      - name: Create folder containing CON file's contents
+
+      ########################################################################
+
+      - name: Build RB3 Beta Songs packed CON
         run: |
-          python dependencies/pack_single_cons.py
-      - name: Create CON from content folder
-        run: |
-          mkdir output
-          ./dependencies/onyx-20240928-linux-x64.AppImage stfs _tmp --to output/RB3-Beta-Songs-Pack --game rb3
+          python dependencies/pack_single_cons.py RB3-Beta-Songs
+      
       - name: Upload result
         uses: actions/upload-artifact@v4
         with:
-          name: RB3-Beta-Songs-Pack
+          name: RB3-Beta-Songs_packed
           path: |
-            output
+            RB3-Beta-Songs
+
+      - name: Remove RB4toRB2 DISC packed CON
+        run: |
+          rm RB3-Beta-Songs

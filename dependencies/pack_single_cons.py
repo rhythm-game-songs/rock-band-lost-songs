@@ -21,7 +21,7 @@ def remove_spaces():
 
     # remove spaces from all CON names before we begin processing
     for song_folder in cwd.glob("*"):
-        if "beta_songs" in song_folder.name:
+        if "RB3" in song_folder.name:
             print(song_folder.name)
             for song_con in song_folder.glob("*"):
                 p = Path(song_con)
@@ -32,17 +32,17 @@ def build_packed_con_from_folder(folder_name):
     cwd = Path().absolute()
     print(cwd)
 
-    # for each beta_songs* folder in the root directory of the repo
+    # for each RB3-* folder in the root directory of the repo
     for song_folder in cwd.glob("*"):
-        if "beta_songs" in song_folder.name:
+        if "RB3" in song_folder.name:
             # print(song_folder.name)
             
             if song_folder.name == folder_name:
                 # create temp folder for the songs data to go
-                cwd.joinpath("_tmp/songs").mkdir(parents=True, exist_ok=True)
-                temp_song_path = cwd.joinpath("_tmp/songs")
+                cwd.joinpath("tmp/songs").mkdir(parents=True, exist_ok=True)
+                temp_song_path = cwd.joinpath("tmp/songs")
                 mega_song_dta = []
-                # for each single CON in the beta_songs* folder
+                # for each single CON in the RB3-* folder
                 for song_con in song_folder.glob("*"):
                     onyx_extract_con_files(song_con)
                     print(song_con.name)
@@ -58,8 +58,8 @@ def build_packed_con_from_folder(folder_name):
                 with open(temp_song_path.joinpath("songs.dta"), "w", encoding="ISO-8859-1") as oof:
                     oof.writelines(mega_song_dta)
 
-                onyx_pack_files_into_con(cwd.joinpath("_tmp"), f"{song_folder.name}")
-                remove_tree(str(cwd.joinpath("_tmp")))
+                onyx_pack_files_into_con(cwd.joinpath("tmp"), f"{song_folder.name}")
+                remove_tree(str(cwd.joinpath("tmp")))
 
 def main():
 
