@@ -37,8 +37,8 @@ jobs:
         with:
           name: RB3-Beta-Songs_packed
           path: |
-            RB3-Beta-Songs
+            RB3-Beta-Songs_rb3con
 
       - name: Remove RB4toRB2 DISC packed CON
         run: |
-          rm RB3-Beta-Songs
+          rm RB3-Beta-Songs_rb3con

@@ -10,7 +10,7 @@ def onyx_extract_con_files(con_name):
     subprocess.run(cmd_extract)
 
 def onyx_pack_files_into_con(folder_name, new_con_name):
-    # cmd_pack = f"C:/Program Files/OnyxToolkit/onyx stfs {folder_name} --to {new_con_name} --game rb3".split()
+    # cmd_pack = f"C:/Program Files/OnyxToolkit/onyx stfs {folder_name} --to {new_con_name} --game rb33333".split()
     cmd_pack = f"./dependencies/onyx-20240928-linux-x64.AppImage stfs {folder_name} --to {new_con_name} --game rb3".split()
     subprocess.run(cmd_pack)
 
@@ -58,7 +58,7 @@ def build_packed_con_from_folder(folder_name):
                 with open(temp_song_path.joinpath("songs.dta"), "w", encoding="ISO-8859-1") as oof:
                     oof.writelines(mega_song_dta)
 
-                onyx_pack_files_into_con(cwd.joinpath("tmp"), f"{song_folder.name}")
+                onyx_pack_files_into_con(cwd.joinpath("tmp"), f"{song_folder.name}_rb3con")
                 remove_tree(str(cwd.joinpath("tmp")))
 
 def main():
