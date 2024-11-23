@@ -1,6 +1,7 @@
-## Rock Band 3 Beta Songs
+# Rock Band 3 Beta Songs
+![RB3BetaSongs](./dependencies/header.png)
 
-This is the repo that contains ported songs that were only available in the early 2010 dev builds of Rock Band 3.
+Welcome to the Rock Band 3 Beta Songs repo. This repo contains ports of songs that were included in the early 2010 development builds of Rock Band 3, but were cut from the final release of the game.
 
 ## Songs ported over:
 * Chris n' Jeff - Beatmatch Test w/ Music!
