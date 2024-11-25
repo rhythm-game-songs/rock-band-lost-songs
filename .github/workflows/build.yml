@@ -39,6 +39,40 @@ jobs:
           path: |
             RB3-Beta-Songs_rb3con
 
-      - name: Remove RB4toRB2 DISC packed CON
+      - name: Remove RB3 Beta Songs packed CON
         run: |
           rm RB3-Beta-Songs_rb3con
+
+      ########################################################################
+
+      - name: Build RB3 Lost RBN packed CON
+        run: |
+          python dependencies/pack_single_cons.py RB3-Lost-RBN
+      
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: RB3-Lost-RBN_packed
+          path: |
+            RB3-Lost-RBN_rb3con
+
+      - name: Remove RB3 Lost RBN packed CON
+        run: |
+          rm RB3-Lost-RBN_rb3con
+
+      ########################################################################
+
+      - name: Build RB3 Lost RBN 2x packed CON
+        run: |
+          python dependencies/pack_single_cons.py RB3-Lost-RBN-2x
+      
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: RB3-Lost-RBN-2x_packed
+          path: |
+            RB3-Lost-RBN-2x_rb3con
+
+      - name: Remove RB3-Lost-RBN-2x packed CON
+        run: |
+          rm RB3-Lost-RBN-2x_rb3con
