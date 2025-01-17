@@ -82,4 +82,5 @@ Welcome to the Rock Band 3 Lost Songs repo. This repo contains lost Rock Band Ne
 * Teramaze - Ahnedonia
 * Teramaze - Machine
 * Vallejo - Gone
+* Various Artists - Rock Band Network Megamix 02 (Remade by Bakartridge)
 * The Worshyp - Left for Dead
