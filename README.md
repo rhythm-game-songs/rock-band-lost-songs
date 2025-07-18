@@ -1,7 +1,7 @@
 # Rock Band 3 Lost Songs
 ![RB3LostSongs](./dependencies/header.png)
 
-Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Network songs, and ports of charts that were included in the early 2010 development builds of Rock Band 3, but were cut from the final release of the game.
+Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Network songs, lost Rock Band 1-2 DLC, and ports of charts that were included in the early 2010 development builds of Rock Band 3, but were cut from the final release of the game.
 
 ## Beta songs ported over:
 * Blood, Sweat & Tears - Spinning Wheel
