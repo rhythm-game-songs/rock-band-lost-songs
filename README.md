@@ -1,7 +1,7 @@
 # Rock Band 3 Lost Songs
 ![RB3LostSongs](./dependencies/header.png)
 
-Welcome to the Rock Band 3 Lost Songs repo. This repo contains lost Rock Band Network songs, and ports of charts that were included in the early 2010 development builds of Rock Band 3, but were cut from the final release of the game.
+Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Network songs, and ports of charts that were included in the early 2010 development builds of Rock Band 3, but were cut from the final release of the game.
 
 ## Beta songs ported over:
 * Blood, Sweat & Tears - Spinning Wheel
@@ -13,7 +13,14 @@ Welcome to the Rock Band 3 Lost Songs repo. This repo contains lost Rock Band Ne
 * Santana - Black Magic Woman/Gypsy Queen
 * Traffic - Feelin' Alright
 
-## Lost Rock Band Network (Thank you to AddyMills, BongOfDestiny, MiloHax, and RhythmVerse for getting these songs preserved):
+## Lost Rock Band 1-2 DLC:
+* Metallica - Fuel
+* Metallica - King Nothing
+
+## Lost Rock Band Network 1.0:
+* Coalmine - Canary
+
+## Lost Rock Band Network 2.0 (Thank you to AddyMills, BongOfDestiny, MiloHax, and RhythmVerse for getting these songs preserved):
 * 2011-02-28 HMXLachesis Upload #4 - 2011-02-28 HMXLachesis Upload #4 (Don't Let Me Down (Slowly) (RB3 version))
 * All Shall Perish - Divine Illusion
 * All Shall Perish - Royalty Into Exile
@@ -34,7 +41,6 @@ Welcome to the Rock Band 3 Lost Songs repo. This repo contains lost Rock Band Ne
 * Children of Nova - Erratic
 * Chris Lee - Boss
 * Christian Muenzner - Rocket Shop
-* Coalmine - Canary
 * Death of the Cool - Cuts Like a Knife
 * Decibelle - Life
 * Dying Fetus - Ethos of Coercion
@@ -82,5 +88,5 @@ Welcome to the Rock Band 3 Lost Songs repo. This repo contains lost Rock Band Ne
 * Teramaze - Ahnedonia
 * Teramaze - Machine
 * Vallejo - Gone
-* Various Artists - Rock Band Network Megamix 02 (Remade by Bakartridge)
+* Various Artists - Rock Band Network Megamix 02 (Recreation by Bakartridge)
 * The Worshyp - Left for Dead
