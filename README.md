@@ -14,6 +14,7 @@ Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Netw
 * Traffic - Feelin' Alright
 
 ## Lost Rock Band 1-2 DLC:
+* Indochine - L'Aventurier
 * Metallica - Fuel
 * Metallica - King Nothing
 
