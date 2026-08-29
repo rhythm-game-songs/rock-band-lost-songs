@@ -26,6 +26,7 @@ Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Netw
 ## Lost Rock Band Network 1.0:
 * Coalmine - Canary
 * The Romantics - Talking In Your Sleep (v1/2)
+* Wheatus - Teenage Dirtbag 2010
 
 ## Lost Rock Band Network 2.0 (Thank you to AddyMills, BongOfDestiny, MiloHax, and RhythmVerse for getting these songs preserved):
 * 2011-02-28 HMXLachesis Upload #4 - 2011-02-28 HMXLachesis Upload #4 (Don't Let Me Down (Slowly) (RB3 version))
