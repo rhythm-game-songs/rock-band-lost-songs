@@ -24,6 +24,7 @@ Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Netw
 * The Who - Pinball Wizard (RB1 version)
 
 ## Lost Rock Band Network 1.0:
+* Billy Idol with Generation X - Dancing With Myself
 * Coalmine - Canary
 * The Romantics - Talking In Your Sleep (v1/2)
 * Wheatus - Teenage Dirtbag 2010
