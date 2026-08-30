@@ -86,7 +86,13 @@ Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Netw
 * Revocation - Conjuring the Cataclysm
 * Revocation - No Funeral
 * Revocation - The Watchers
+* Richard Campbell - A House of Sorrow
+* Richard Campbell - Enslaved
+* Richard Campbell - Fallen Angel
+* Richard Campbell - Retribution
 * Richard Campbell - Shadow of the Beast
+* Richard Campbell - The Veil
+* Richard Campbell - Walton's Reprise/The Barren Sea
 * Rishloo - Freaks and Animals
 * Silent House - Miracle
 * Silent House - The Infinite Sadness
