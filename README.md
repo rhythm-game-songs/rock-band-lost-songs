@@ -27,6 +27,8 @@ Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Netw
 * Billy Idol with Generation X - Dancing With Myself
 * Coalmine - Canary
 * The Romantics - Talking In Your Sleep (v1/2)
+* Slaughter - Fly To The Angels
+* The Sex Generals - Are You Really A Woman?
 * Wheatus - Teenage Dirtbag 2010
 
 ## Lost Rock Band Network 2.0 (Thank you to AddyMills, BongOfDestiny, MiloHax, and RhythmVerse for getting these songs preserved):
