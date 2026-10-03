@@ -26,9 +26,11 @@ Welcome to the Rock Band Lost Songs repo. This repo contains lost Rock Band Netw
 ## Lost Rock Band Network 1.0:
 * Billy Idol with Generation X - Dancing With Myself
 * Coalmine - Canary
+* LeetStreet Boys - Yuri The Only One
 * The Romantics - Talking In Your Sleep (v1/2)
-* Slaughter - Fly To The Angels
 * The Sex Generals - Are You Really A Woman?
+* Slaughter - Fly To The Angels
+* The Smashing Pumpkins - Bullet with Butterfly Wings
 * Wheatus - Teenage Dirtbag 2010
 
 ## Lost Rock Band Network 2.0 (Thank you to AddyMills, BongOfDestiny, MiloHax, and RhythmVerse for getting these songs preserved):
